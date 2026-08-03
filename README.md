@@ -40,7 +40,7 @@ outputs/         final CSVs + chart (created by predict.py / score.py)
 report_assets/   charts used in the report
 ```
 
-## The approach, in plain English
+## The approach
 
 **The problem:** given a load's pickup/delivery, distance, weight, equipment
 type, and date, predict what it will cost (`posted_rate`).
