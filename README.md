@@ -22,6 +22,8 @@ python score.py --predictions outputs/validation_predictions.csv \
                  --output-dir outputs/scorer_results
 ```
 
+Interactive notebook: you can also open the project notebook at [Notebook file/freight_rate_model.ipynb](Notebook%20file/freight_rate_model.ipynb) to run the analysis interactively in Jupyter or VS Code.
+
 Outputs land in `outputs/`:
 - `validation_predictions.csv` — the 12,000-row submission file
 - `december_chart_inputs.csv` — December file with `predicted_rate` filled in
@@ -38,6 +40,7 @@ src/
 models/          saved model files + metrics (created by train.py)
 outputs/         final CSVs + chart (created by predict.py / score.py)
 report_assets/   charts used in the report
+Notebook file/   Jupyter notebook version of the project (`freight_rate_model.ipynb`)
 ```
 
 ## The approach, in plain English
